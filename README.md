@@ -1,6 +1,6 @@
 # pervopechatnik_one
 
-![](https://andreivl.github.io/Test-spa/images/Site-Spa.jpg)
+![](https://andreivl.github.io/pervopechatnik_one_build/images/preview-img-pervopechatnik-one.jpg)
 
 ## Link repo
 https://github.com/AndreiVl/pervopechatnik_one

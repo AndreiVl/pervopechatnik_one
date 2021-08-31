@@ -1,0 +1,13 @@
+mixin operation-item(data)
+	div.operation-item
+
+		div.operation-item__top
+
+			div.operation-item__img
+				img(src="images/"+data.img, alt=data.title)
+
+			div.operation-item__text
+				h3.operation-item__title!=data.title
+
+		div.operation-item__body
+			p.operation-item__info!=data.info

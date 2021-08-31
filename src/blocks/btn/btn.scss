@@ -1,0 +1,57 @@
+.btn {
+	/* 2 Block model */
+	display: inline-block;
+	padding: 0;
+	box-sizing: border-box;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	color: $color-brand;
+	text-decoration: none;
+
+	/* 4 Decor */
+	border: 1px solid $color-brand;
+	border-radius: 15px;
+	background-color: $color-white;
+	box-sizing: border-box;
+	outline: none;
+
+	/* 5 Animation*/
+	transition: all 0.6s;
+}
+.btn:hover {
+	/* 6 Sundry */
+	cursor: pointer;
+	opacity: 0.7;
+}
+.btn__text {
+	/* 2 Block model */
+	margin: 0 29px;
+	
+	/* 3 Typography */
+	font-size: 12px;
+	font-weight: 500;  
+	line-height: 28px;
+}
+.icon+.btn__text {
+	/* 2 Block model */
+  margin-left: -14px;
+}
+.btn__text:not(:last-child) {
+	/* 2 Block model */
+	margin-right: -14px;
+}
+.btn .icon {
+	/* 2 Block model */
+	margin: 0 29px;
+}
+.btn .icon:only-of-type {
+	/* 2 Block model */
+	margin: 0;
+}
+.btn--block {
+	/* 2 Block model */
+	width: 100%;
+}
+
+@import '--outline/--outline';

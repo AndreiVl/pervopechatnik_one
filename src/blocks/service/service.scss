@@ -1,0 +1,22 @@
+.service__img {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+.service__img img {
+	/* 2 Block model */
+	display: block;
+	max-width: 100%;
+}
+.service__title {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	text-align: center;
+	color: $color-text-1;
+}

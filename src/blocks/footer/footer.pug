@@ -1,0 +1,24 @@
+footer.footer
+	div.container
+		div.row
+			div.col-12
+				div.footer__top
+					include ../logo/logo
+					include ../menu/menu
+					+menu('Главная', 'О нас' ,'Услуги', 'Работы' ,'Отзывы','Контакты')
+	
+		div.footer__bottom
+			div.row
+				div.col-12.order-2.col-md-6.order-md-1
+					div.footer__info
+						p Вся информация, представленная на сайте, носит рекламный характер и не является публичной офертой.
+						span © 2018 г. Златоуст, ул. Скворцова, 2
+
+				div.col-12.order-1.col-md-6.order-md-2
+					div.footer__contacts
+						span Тел.:
+							a.footer__link(href="tel:+73513621220") +7 (3513) 62-12-20
+						span Тел.:
+							a.footer__link(href="tel:+73513620220") +7 (3513) 62-02-20
+						span Email:
+							a.footer__link(href="mailto:fotoworld@rambler.ru") fotoworld@rambler.ru

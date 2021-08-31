@@ -1,0 +1,35 @@
+section.services
+	div.section
+		div.container
+			div.row
+				div.col-12
+					div.section__header
+						include ../title/title
+						+title({tag: 'h2', text: 'Услуги'})
+			
+			div.services__list
+				div.row
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							include ../service/service
+							+service({img: 'book-sm.svg', title: 'Книги'})
+
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							+service({img: 'catalogs.svg', title: 'Каталоги'})
+
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							+service({img: 'booklets.svg', title: 'Буклеты'})
+
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							+service({img: 'leaflets.svg', title: 'Листовки'})
+
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							+service({img: 'calendar.svg', title: 'Календари'})
+
+					div.col-6.col-md-4.col-lg-2
+						div.services__item
+							+service({img: 'business-card.svg', title: 'Визитки'})

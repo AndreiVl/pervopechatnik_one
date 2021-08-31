@@ -1,0 +1,37 @@
+.contacts {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.contacts__img {
+	/* 2 Block model */
+	margin-right: 6px;
+}
+.contacts__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}
+.contacts__link {
+	/* 3 Typography */
+	text-decoration: none;
+}
+.contacts__link:hover {
+	/* 3 Typography */
+	text-decoration: underline;
+	opacity: 0.7;
+}
+.contacts__phone .contacts__link {
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #284997;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 16px;
+	}
+}

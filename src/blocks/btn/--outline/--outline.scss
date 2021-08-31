@@ -1,0 +1,18 @@
+.btn--outline {
+	/* 3 Typography */
+	color: $color-text-1;
+
+	/* 4 Decor */
+	border: 1px solid red;
+}
+.btn--outline .btn__text {
+	/* 2 Block model */
+	margin: 0 34px;
+
+	/* 3 Typography */
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 31px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}

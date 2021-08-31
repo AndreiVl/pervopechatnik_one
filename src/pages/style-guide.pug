@@ -1,0 +1,32 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Style Guide')
+
+	body
+
+		//include ../blocks/icon/icon
+		//+icon('icon--vk')
+		//+icon('icon--fb')
+		//+icon('icon--tw')
+		//+icon('icon--phone')
+
+
+		include ../blocks/btn/btn
+		+btn({url: '#', text: 'Sign In', type: 'link', url: 'https://vk.com/id38676428'})
+		+btn({text: 'PURCHASE'})(class="btn--outline")
+		//include ../blocks/logo/logo
+		//include ../blocks/title/title
+		//+title({tag: 'h1', text: 'Типография полного цикла'})
+		//+title({tag: 'h2', text: 'Давайте знакомиться'})
+		include ../blocks/header/header 
+		include ../blocks/slaider/slaider
+		include ../blocks/operation/operation
+		include ../blocks/information/information
+		include ../blocks/services/services
+		include ../blocks/our-works/our-works
+		include ../blocks/footer/footer
+
+		
+		
+		include include/script.pug

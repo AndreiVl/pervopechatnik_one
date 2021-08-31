@@ -1,0 +1,43 @@
+section.our-works
+	div.section
+		div.container
+			div.row
+				div.col-12
+					div.section__header
+						+title({tag: 'h2', text: 'Наши работы'})
+
+		div.foto-galerei
+			div.container
+				div.row.justify-content-center
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							include ../our-work/our-work
+							+our-work('works__01.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work( 'works__02.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__03.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__04.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__05.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__06.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__07.jpg')
+
+					div.col-10.col-md-4.col-lg-3
+						div.our-works__item
+							+our-work('works__08.jpg')

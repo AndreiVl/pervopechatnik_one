@@ -1,0 +1,34 @@
+section.information
+	div.section
+		div.container
+			div.row
+				div.col-12
+					div.section__header
+						include ../title/title
+						+title({tag: 'h2', text: 'Давайте знакомиться'})
+
+				div.col-12.col-md-6.col-lg-5.offset-lg-1
+					div.information__text
+						p Типография «Первопечатник » основана в 
+							strong 2003 
+							|году. Это современное, динамично развивающееся, предприятие на рынке издательских и рекламно-полиграфических услуг.
+
+						p За 
+							strong 15 
+							|лет работы на рынке выпущено более 
+							strong 300 
+							|книг краеведческой, художественной и научно-популярной тематики, а также различные сложные и простые проекты (каталоги).
+
+						p Типография «Первопечатник» имеет собственные производственные мощности и площади, позволяющие изготавливать весь спектр полиграфической и рекламной продукции.
+
+						div.information__significative
+							include ../significant-number/significant-number
+
+
+				div.col-12.col-md-5
+					div.information__img
+						img(src="images/information.jpg", alt="Наталья Михайлова")
+
+				div.col-12.col-md-1
+					div.information__name
+						span Наталья Михайлова

@@ -1,0 +1,10 @@
+.our-works__item {
+	/* 2 Block model */
+	margin-bottom: 24px;
+}
+.our-works .section {
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 55px;
+	}
+}

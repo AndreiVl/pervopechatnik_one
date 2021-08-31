@@ -1,0 +1,46 @@
+body {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	padding: 0;
+  margin: 0;
+
+	/* 3 Typography */
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-text-1;
+
+  /* 4 Decor */
+  background-color: #ffffff;
+}
+.section {
+	/* 2 Block model */
+	margin-bottom: 24px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 80px;
+	}
+}
+.section__header {
+	/* 2 Block model */
+	margin-bottom: 24px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 48px;
+	}
+}
+h1 {
+	/* 3 Typography */
+	font-size: 36px;
+	line-height: 47px;
+}
+h2 {
+	/* 3 Typography */
+	font-size: 28px;
+	line-height: 35px;
+}
